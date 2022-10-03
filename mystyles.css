@@ -6,7 +6,7 @@ body
     background-color: white;
     font-size: 18px;
     color: #2D3748;
-
+    
 }
 
 
@@ -18,14 +18,13 @@ body
     flex-direction: column;
     justify-content: center;
     background-color: #63B3ED;
-    grid-row-start:1 ;
+    /* grid-row-start: 1;
     grid-row-end: 1;
     grid-column-start: 1;
-    grid-column-end:3;
+    grid-column-end: 3; */
     align-items: center;
     color: #FFFFFF;
-    padding-bottom: 13%;
-    padding-top: 13%;
+
 }
 
 
@@ -34,7 +33,21 @@ body
 {
     align-items: center;
     border-radius: 100%;
+    
 }
+
+main
+{
+    padding-top: 10%;
+    /* grid-row-start: 2;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 1;   */
+    width: 60%; 
+    float: left;
+    margin-right: 5%;
+}
+
 
 #Blog_T
 {
@@ -47,12 +60,14 @@ body
 {
     font-size: 32px;
     color: #48BB78;
+    text-align: left;
 
 }
 
 #author
 {
     color: #718096;
+    text-align: left;
 }
 
 
@@ -68,34 +83,76 @@ body
 
 
 aside 
-{
-padding-top: 20%;
-padding-left: 5%;
-grid-row-start: 2;
-grid-row-end: 2;
-grid-column-start: 2;
-grid-column-end: 2;
+{   
+    display: flex;
+    /* grid-row-start: 3;
+    grid-row-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 3; */
+    padding-top: 10%;
+    padding-right: auto;
+
 }
 
 
 footer
-{
-grid-row-start: 3;
-grid-row-end:3 ;
-grid-column-start:1 ;
-grid-column-end: 3;
-color: white;
-background-color:#2C5282;
-padding-inline-start: 5%;
-background-color: #2C5282;
+{   
+    clear: both;
+    /* grid-row-start: 3;
+    grid-row-end: 3 ;
+    grid-column-start: 1 ;
+    grid-column-end: 3; */
+    color: white;
+    background-color:#2C5282;
+    padding-inline-start: 5%;
+
 }
 
 
-main
+#my_pic2
 {
-    padding-top: 10%;
-    grid-row-start: 2;
-    grid-row-end: 2;
-    grid-column-start: 1;
-    grid-column-end:1 ;   
+    float: right;
+    margin-left: 2rem;
+}
+
+#my_pic3
+{
+    float: right;
+    margin-left: 2rem;
+}
+
+
+#function_1
+{
+    padding-left:5px;
+    padding-right: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color:#E2E8F0;
+
+}
+
+#function_2
+{
+    color: #4299E1;
+}
+
+
+#about
+{
+    color: #000000;
+    font-family: Georgia,'Times New Roman', Times, serif;
+}
+
+
+#S_A
+{
+    color: #48BB78;
+}
+
+a
+{
+  color: #4299E1;
+  text-decoration: none;
 }
