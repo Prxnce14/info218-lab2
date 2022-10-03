@@ -1,5 +1,101 @@
-p
-{
-    
 
+body
+{   
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe"
+    UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sansserif";
+    background-color: white;
+    font-size: 18px;
+    color: #2D3748;
+
+}
+
+
+#Montra
+{
+    grid-template-rows:20% 75% 5%;
+    grid-template-columns: 70% 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #63B3ED;
+    grid-row-start:1 ;
+    grid-row-end: 1;
+    grid-column-start: 1;
+    grid-column-end:3;
+    align-items: center;
+    color: #FFFFFF;
+    padding-bottom: 13%;
+    padding-top: 13%;
+}
+
+
+/* Picture edits */
+#my_pic
+{
+    align-items: center;
+    border-radius: 100%;
+}
+
+#Blog_T
+{
+    font-size: 36px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+#Blog_T1
+{
+    font-size: 32px;
+    color: #48BB78;
+
+}
+
+#author
+{
+    color: #718096;
+}
+
+
+.container
+{
+   grid-template-columns: 70% 30%;
+   grid-template-rows: 20% 75% 5%;
+   padding: 10px;
+   border-radius: 5%;
+   font-size: 18px;
+   font-family:-apple-system,BlinkMacSystemFont,"Segoe UI" ,Roboto,"Helvetica Neue",Arial,"Noto Sans",sansserif;
+}
+
+
+aside 
+{
+padding-top: 20%;
+padding-left: 5%;
+grid-row-start: 2;
+grid-row-end: 2;
+grid-column-start: 2;
+grid-column-end: 2;
+}
+
+
+footer
+{
+grid-row-start: 3;
+grid-row-end:3 ;
+grid-column-start:1 ;
+grid-column-end: 3;
+color: white;
+background-color:#2C5282;
+padding-inline-start: 5%;
+background-color: #2C5282;
+}
+
+
+main
+{
+    padding-top: 10%;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end:1 ;   
 }
